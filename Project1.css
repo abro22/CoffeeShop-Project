@@ -1,0 +1,36 @@
+
+body {background-color: lightgray ; color: black; }
+
+.banner {width: 100vw; height: 20vh;}
+
+/* .banner-box {    } */
+
+button { background-color: lightblue; color: black;}
+.button-center {display: flex; justify-content: center;}
+.buttons { display: flex; justify-content: center;}
+
+.forms { display: flex; justify-content: center;}
+
+.input-box { width: 600px;}
+
+.inline { display: flex; display: inline-block; margin-right: 50px;}
+
+.button-space {padding: 5px;}
+
+.input-size { width: 600px; }
+
+
+@media  (max-width: 500px) { 
+    body {background-color: lightslategray;} 
+
+
+    .mobile-size { display: flex;
+        justify-content: center;
+    align-items: center; display: block;}   
+    
+    .input-size { width: 300px;}
+
+
+
+
+} 

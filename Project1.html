@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="project1.css">
+  
+</head>
+                    <body>
+                            
+                        <div class="buttons">
+                            
+                            <div class="button-space">
+                            <button type="button">Home</button>
+                            </div>
+
+                            <div class="button-space">
+                            <button type="button">Menu</button>
+                            </div>
+
+                            <div class="button-space">
+                            <button type="button">Location</button>
+                            </div>
+
+
+                            <div class="button-space">
+                            <button type="button">Order Now!</button>
+                            </div>
+
+                        </div>
+
+                        
+                            <div class="forms">
+                                <div class="banner-box">
+                                    <img class="banner" src="https://images.pexels.com/photos/5211535/pexels-photo-5211535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cofee">
+                                </div>
+                            </div>    
+
+
+
+                            <div class="forms"> 
+                                
+                                <div>
+                                    <h1>Order Here!</h1>
+                                    <br>
+                                        <div class="mobile-size">
+                                       
+                                            <label for="name">Full Name</label>
+                                            <br>
+                                            <input class="input-size" type="text" name="name" id="nameBox" value="">
+                                            
+                                        
+                                                <br>
+                                                <br>
+                                       
+                                            <label for="email">Email Address</label>
+                                            <br>
+                                            <input class="input-size"  type="email" name="email" id="emailBox" value="">
+                            
+                                            <p>Please enter an email for confirmation. We'll never share your info!</p> 
+                                            
+                                        </div>    
+                                        
+                                        <br>
+
+                                    <div class="inline">
+                                        <h2>Whats your Fav?</h2> 
+
+                                        
+                                            <input class="drinkInput" type="radio" name="coffee-types" id="black tea" value="black tea">
+                                            <label for="black tea"> Black Tea</label>
+                                            <br>
+
+                                            <input class="drinkInput"  type="radio" name="coffee-types" id="frappuccino" value="frappuccino">
+                                            <label for="frappuccino"> Frappuccino</label>
+                                            <br>
+
+                                            <input class="drinkInput"  type="radio" name="coffee-types" id="latte" value="latte">
+                                            <label for="latte"> Latte</label>
+                                            <br>
+
+                                            <input class="drinkInput" type="radio" name="coffee-types" id="mocha" value="mocha">
+                                            <label for="mocha"> Mocha</label>
+
+                                        
+                                    </div>
+
+                                        <div class="inline">
+                                            <h2>Add Flavors ☕️</h2>
+                                           
+                                                <input class="flavorsInput" type= "checkbox" id="hazelnut" name="flavors" value="hazelnut">
+                                                <label for="hazelnut">Hazelnut</label>
+                                                <br>
+
+                                                <input class="flavorsInput" type="checkbox" id="chocolate" name="flavors" value="chocolate">
+                                                <label for="chocolate">Chocolate</label>
+                                                <br>
+
+                                                <input class="flavorsInput" 
+                                                 type="checkbox" id="vanilla" name="flavors" value="vanilla">
+                                                <label for="vanilla">Vanilla</label>
+
+                                                <br>
+
+                                                <input class="flavorsInput"  type="checkbox" id="caramel" name="flavors" value="caramel">
+                                                <label for="caramel">Caramel</label>
+
+
+                                           
+
+                                        </div>
+
+                                        <div class="inline">
+                                            <h2>Want Milk?</h2> 
+    
+                                            
+                                                <input class="milkInput" type="radio" name="milk-types" id="milk" value="milk">
+                                                <label for="milk"> Milk</label>
+                                                <br>
+    
+                                                <input class="milkInput"  type="radio" name="milk-types" id="coconut milk" value="coconut milk">
+                                                <label for="coconut milk"> Coconut Milk</label>
+                                                <br>
+
+                                                <input class="milkInput"  type="radio" name="milk-types" id="half & half" value="half & half">
+                                                <label for="half & half"> Half&Half</label>
+                                                <br>
+
+                                                <input class="milkInput"  type="radio" name="milk-types" id="almond milk">
+                                                <label for="almond milk"> Almond Milk</label>
+                                                
+    
+                                            
+                                        </div>
+
+                                        <div>
+                                            <h2>Leave a Comment!</h2>
+                                            
+                                                <label for="longmsg"></label>
+                                                <textarea class="input-size" name="user_message" 
+                                                id="longmsg" 
+                                                cols="73" 
+                                                rows="1"></textarea>
+
+                                            <br>
+                                            <br>
+
+                                            <div class="button-center">
+                                            <button onclick = "fullName ()">Submit Order</button>
+                                            </div>
+                                            
+                                        </div>
+
+
+                                </div>   
+
+                            </div>
+
+                            <script src="Project1.js"></script>
+                        </body>
+</html>
